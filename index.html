@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Library Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Library Survey</h1>
+    <p id="description">Help us improve your local library!</p>
+    <form id="survey-form">
+        <label for="name" id="name-label"> Name
+            <input id="name" type="text" placeholder="Enter your name" required>
+        </label>
+        <label for="email" id="email-label"> Email
+            <input id="email" type="email" placeholder="Enter your email" required>
+        </label>
+        <label for="number" id="number-label"> Number
+            <input id="number" placeholder="Enter your number" type="number" value="number" min="1" max="10" required>
+        </label>
+        <label for="dropdown" id="dropdown-label"> How often do you visit the library?
+            <select id="dropdown">
+                <option>Always</option>
+                <option>Sometimes</option>
+                <option>Never</option>
+            </select>
+        </label>
+        <div>
+            <label id="work"> What is your work environment like?
+            </label>
+            <input type="radio" class="work" name="work" value="work" checked>
+            <label for="work" class="work">
+                Office
+            </label>
+        </div>
+        <div>
+            <input type="radio" class="work" name="work" value="work">
+            <label for="work" class="work">
+                Factory
+            </label>
+        </div>
+        <div>
+            <input type="radio" class="work" name="work" value="work">
+            <label for="work" class="work">
+                Remote
+            </label>
+        </div>
+        <div>
+            <label id="school"> What is your level of education?
+            </label>
+            <input type="radio" class="school" name="school" value="school" checked>
+            <label for="school" class="school">
+                Primary
+            </label>
+        </div>
+        <div>
+            <input type="radio" class="school" name="school" value="school">
+            <label for="school" class="school">
+                Secondary
+            </label>
+        </div>
+        <div>
+            <input type="radio" class="school" name="school" value="school">
+            <label for="school" class="school">
+                Tertiary
+            </label>
+        </div>
+        <div>
+            <label id="color"> What is your favorite color?
+            </label>
+            <input type="checkbox" class="school" value="white">
+            <label class="school">
+                White
+            </label>
+        </div>
+        <div>
+            <input type="checkbox" class="work" value="black">
+            <label class="work">
+                Black
+            </label>
+        </div>
+        <div>
+            <input type="checkbox" class="work" value="black">
+            <label class="work">
+                Green
+            </label>
+        </div>
+        <div>
+            <input type="checkbox" class="work" value="black">
+            <label class="work">
+                Yellow
+            </label>
+        </div>
+        <label id="comment"> Any comments?
+            <textarea placeholder="Enter your comment here..."></textarea>
+        </label>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+
+</html>

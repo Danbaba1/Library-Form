@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+    font-family: "Georgia", serif;
+}
+
+#title,
+#description {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#description {
+    font-style: italic;
+}
+
+#survey-form {
+    background-color: lavender;
+    border-radius: 12px;
+    height: 770px;
+    margin: 3px auto;
+    padding: 5px 6px;
+    width: 300px;
+    box-shadow: 3px 3px 3px rgb(69, 150, 50);
+}
+
+label,
+input {
+    display: block;
+}
+
+input {
+    border-radius: 20px;
+    padding: 8px;
+    font-family: inherit;
+}
+
+#name,
+#email,
+#number {
+    border: none;
+    width: 275px;
+    margin: 5px auto;
+    box-shadow: 3px 3px 3px rgb(69, 150, 50);
+}
+
+#name-label,
+#email-label,
+#number-label,
+#dropdown-label {
+    margin: 2px auto;
+    padding: 5px;
+}
+
+#dropdown {
+    border-radius: 30px;
+    border: none;
+    height: 30px;
+    font-family: inherit;
+    width: 150px;
+    margin: 4px 1px;
+    padding: 4px;
+    box-shadow: 3px 3px 3px rgb(69, 150, 50);
+}
+
+#dropdown-label {
+    padding: 8px;
+}
+
+.work,
+.school {
+    display: inline-block;
+    padding: 3px;
+}
+
+#work,
+#school,
+#color,
+#comment {
+    padding: 5px;
+}
+
+textarea {
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    margin: 8px auto;
+    width: 275px;
+    box-shadow: 3px 3px 3px rgb(69, 150, 50);
+}
+
+#submit {
+    display: block;
+    background-color: yellow;
+    padding: 8px;
+    margin: 5px auto;
+    border: none;
+    box-shadow: 3px 3px 3px rgb(69, 150, 50);
+    border-radius: 23px;
+    width: 100px;
+    font-family: inherit;
+}
